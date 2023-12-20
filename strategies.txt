@@ -1,0 +1,6 @@
+
+- basic project setup
+- install and configure tailwind & daisyui
+- todo: set light theme by default
+- todo: edit theme 
+- todo: folix (theme on themeforest)

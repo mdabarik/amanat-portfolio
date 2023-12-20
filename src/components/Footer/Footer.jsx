@@ -10,7 +10,7 @@ const Footer = () => {
             <div>
                 <SocialLinks></SocialLinks>
             </div>
-            <small>All Right Reserved 2023-2027 &copy; Md. A. Barik</small>
+            <small>All Right Reserved 2023-2027 &copy; Md Amanat Ullah Arman</small>
         </div>
     );
 };

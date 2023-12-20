@@ -1,9 +1,9 @@
 
 
-## Md. A. Barik | Portfolio App
+## Amanat Ullah Arman | Portfolio App
 - [Live Link](linkedin.com)
 
-## NPM Packages
-- tailwind
-- daisyui
-- react router
+## Technologies Used
+- ReactJS
+- Tailwind CSS
+- React Router CSS

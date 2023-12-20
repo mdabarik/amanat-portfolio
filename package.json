@@ -19,6 +19,7 @@
     "@tsparticles/engine": "^3.0.2",
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.0.2",
+    "firebase": "^10.7.1",
     "lottie-react": "^2.4.0",
     "react": "^18.2.0",
     "react-animated-cursor": "^2.11.2",

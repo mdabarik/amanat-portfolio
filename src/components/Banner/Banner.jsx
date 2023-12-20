@@ -14,7 +14,6 @@ const Banner = () => {
     return (
         <div className="text-white overflow-hidden flex items-center justify-center absolute z-40 top-0 left-0 w-[100vw] h-[80vh] pt-5">
             {/* bg animation */}
-            {/* <Lottie className=' object-cover absolute z-10 top-0 left-0' animationData={BannerLogoLottie} loop={true} /> */}
             <div className="hidden lg:block">
                 <Lottie
                     className='object-cover absolute z-10 top-0 left-0'
@@ -35,17 +34,17 @@ const Banner = () => {
                 <div className="h-full w-[100%] mx-auto flex flex-col-reverse lg:flex-row justify-between items-center">
                     <div className="flex-1 relative z-50">
                         <div className="">
-                            <h2 className="text-xl md:text-4xl lg:text-5xl font-bold">Hi, I'm Md. A. Barik</h2>
+                            <h2 className="text-xl md:text-4xl lg:text-5xl font-bold">Hi, I'm Amanat Ullah Arman</h2>
                             <div className="">
                                 <TypeAnimation
                                     sequence={[
-                                        'Front End Developer',
+                                        'Data Analyst',
                                         1000,
-                                        'ReactJS Developer',
+                                        'Researcher',
                                         1000,
-                                        'MERN Stack Developer',
+                                        'Programmer',
                                         1000,
-                                        'LeetCode Problem Solver',
+                                        'Problem Solver',
                                         1000
                                     ]}
                                     className="text-2xl md:text-3xl lg:text-5xl py-2"
@@ -57,17 +56,17 @@ const Banner = () => {
                             </div>
                             <div>
                                 <p className="pb-3">
-                                    I'm a dedicated front-end developer with a robust grasp of HTML5, CSS3, and JavaScript. Proficient in developing dynamic web applications using React, Express, Node.js, and MongoDB. I also share my knowledge by teaching programming and data structures on Udemy.
+                                I want to enrich my statistical knowledge that I have gathered from my graduation in Statistics. I would like to take challenge as a statistician to perform properly any statistical problem. I have work experience on a research project. I have research interest on following areas: Biostatistics, Time Series Data Analysis, Sampling Methods, and Statistical computing with R. I intend to pursue my academic career in statistical research.
                                 </p>
                             </div>
                             <div className="flex flex-wrap gap-2">
-                                <Link to="https://drive.google.com/uc?export=download&id=16LPKzBpudfSX4i92i85qwtPOMLsDFKc-" className="bg-[red] border-[2px] hover:border-[#b01d1d] border-red-600 hover:bg-[#b01d1d] text-white px-6 py-3 text-sm rounded-full flex gap-2 uppercase">
+                                <Link to="https://drive.google.com/uc?export=download&id=1NHcI6B6OJXr6q-tW0qXirBZJyLM64Wbl" className="bg-[red] border-[2px] hover:border-[#b01d1d] border-red-600 hover:bg-[#b01d1d] text-white px-6 py-3 text-sm rounded-full flex gap-2 uppercase">
                                     <FaDownload></FaDownload>
-                                    <span>Download Resume</span>
+                                    <span>Download CV</span>
                                 </Link>
-                                <Link rel="noopener noreferrer" target="_blank" to="https://drive.google.com/file/d/16LPKzBpudfSX4i92i85qwtPOMLsDFKc-/view?usp=sharing" className="bg-[white] border-[2px] hover:border-none hover:cursor-pointer border-red-600 hover:bg-red-600 hover:text-white text-black px-6 py-3 text-sm rounded-full flex gap-2 uppercase">
+                                <Link rel="noopener noreferrer" target="_blank" to="https://drive.google.com/file/d/1NHcI6B6OJXr6q-tW0qXirBZJyLM64Wbl/view?usp=sharing" className="bg-[white] border-[2px] hover:border-none hover:cursor-pointer border-red-600 hover:bg-red-600 hover:text-white text-black px-6 py-3 text-sm rounded-full flex gap-2 uppercase">
                                     <FaExternalLinkAlt></FaExternalLinkAlt>
-                                    <span>View Resume</span>
+                                    <span>View CV</span>
                                 </Link>
                             </div>
                             <div className="mt-3">

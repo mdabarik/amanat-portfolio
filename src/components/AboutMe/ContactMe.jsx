@@ -4,7 +4,6 @@ import { TiMessages } from "react-icons/ti";
 import emailjs from "@emailjs/browser";
 import toast from "react-hot-toast";
 import { Toaster } from 'react-hot-toast';
-import ContactLogo from "./../../assets/skills/contact-me.jpg";
 import ContactMeLottie from "./../../assets/lotties/contact-me.json";
 import Lottie from "lottie-react";
 import ContactNowLottie from "./../../assets/lotties/contact-now.json";
@@ -45,7 +44,7 @@ const ContactMe = () => {
             return;
         }
 
-        emailjs.sendForm('service_wqabwgr', 'template_zl4crh7', form.current, 'yCrwCtJnDPzXUlfJP')
+        emailjs.sendForm('service_ugmpfgm', 'template_d0lipvc', form.current, 'gvDaCU0rG6ssy27U8')
             .then((result) => {
                 toast.success("Message Sent Successfully.")
                 console.log(result);
@@ -73,8 +72,8 @@ const ContactMe = () => {
                             </div>
                             <p className="text-sm w-[80%] mx-auto">Welcome to my contact hub! Whether you have questions, ideas, or just want to connect, I'm delighted to be at your service. Feel free to drop me a message anytime, and let's start a meaningful conversation.</p>
                             <div className="my-3">
-                                <p className="font-bold">Email: <a href="mailto:mdabarik19@gmail.com">mdabarik19@gmail.com</a></p>
-                                <p className="font-bold">Phone: <a href="call:+8801330759741">+8801330759741</a></p>
+                                <p className="font-bold">Email: <a href="mailto:mdamanat99@gmail.com">mdamanat99@gmail.com</a></p>
+                                <p className="font-bold">Phone: <a href="call:+8801330759741">+8801740768725</a></p>
                             </div>
                         </div>
                         <div className="flex-1 border-[2px] rounded-lg p-3">
